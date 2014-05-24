@@ -1,7 +1,10 @@
 class StaticPagesController < ApplicationController
   def home
-  end
+  		@contact = Contact.new
+  	end
 
   def about
+
   end
+
 end

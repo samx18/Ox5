@@ -42,3 +42,11 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# Gems for email registration without database (Google Drive)
+gem 'activerecord-tableless'
+gem 'figaro'
+gem 'google_drive'
+gem 'simple_form'
+gem 'validates_email_format_of'
+
+
