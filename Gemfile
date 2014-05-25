@@ -6,6 +6,7 @@ gem 'rails', '4.1.1'
 
 gem 'foundation-rails'
 gem 'rails_layout'
+gem 'font-awesome-rails'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
