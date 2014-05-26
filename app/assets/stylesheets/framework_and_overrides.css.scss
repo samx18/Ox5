@@ -7,19 +7,23 @@
   line-height: 45px; }
 .top-bar .name a {
   font-weight: normal;
-  color: #dd4b3a;
+  color: #1d9fe3;
   padding: 0 15px; }
 
 /*.top-bar{
-    background: none;
+    background: #158cba;
   }
 
-.top-bar-section{
-  background: none;
-  background-color: #ffffff;
+.top-bar-section {
+  .right {
+  background: #158cba;
+}
 }*/
 
 
+
+
+$topbar-menu-link-color: #fff;
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create mixins using Foundation classes

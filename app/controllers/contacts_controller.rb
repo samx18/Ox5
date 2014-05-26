@@ -7,10 +7,10 @@ class ContactsController < ApplicationController
 		@contact = Contact.new(secure_params) 
 		if @contact.valid?
 			@contact.update_spreadsheet
-			flash[:notice] = 'You have been added'
+			flash[:notice] = 'Awesome! We got you on the VIP list for early access.'
 			redirect_to root_path 		
 		else
-			flash[:alert] = 'Not a valid email'
+			flash[:alert] = 'Oops! Does not look like we can reach you at that address.'
 			redirect_to root_path
 		end 
 	end
